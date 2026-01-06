@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-TW" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>伴手禮選購分析與心得</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            direction: rtl;
+        }
+
+        /* ===== 標題欄（只留標題＋分頁按鈕＋個人資料） ===== */
+        .navbar {
+            background-color: #2c3e50;
+            color: white;
+            padding: 15px 20px;
+        }
+
+        /* 左上分頁按鈕 */
+        .nav-buttons {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 10px;
+        }
+
+        .nav-buttons a {
+            padding: 8px 16px;
+            font-size: 14px;
+            background-color: #34495e;
+            color: white;
+            border-radius: 4px;
+            text-decoration: none;
+        }
+
+        .nav-buttons a:hover {
+            background-color: #1abc9c;
+        }
+
+        /* 標題 */
+        .title {
+            text-align: center;
+            font-size: 30px;
+            margin: 10px 0;
+        }
+
+        /* 個人資料（放在標題欄內） */
+        .profile {
+            text-align: center;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        /* ===== 大按鈕區 ===== */
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            align-items: center;
+            padding: 60px;
+        }
+
+        .btn {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            gap: 20px;
+            font-size: 28px;
+            width: 50vw;
+            height: 120px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+            text-decoration: none;
+            color: black;
+            overflow: hidden;
+        }
+
+        .btn img {
+            width: 120px;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .btn span {
+            padding-right: 20px;
+        }
+
+        .btn:hover {
+            background-color: #ecf0f1;
+        }
+    </style>
+</head>
+<body>
+
+<!-- ===== 標題欄 ===== -->
+<div class="navbar">
+
+    <!-- 左上分頁按鈕 -->
+    <div class="nav-buttons">
+        <!-- ⭐ 這裡改檔名即可連到分頁 ⭐ -->
+        <a href="shin.index.html" target="_blank">新東陽</a>
+        <a href="imei.index.html" target="_blank">義美食品</a>
+        <a href="yu.index.html" target="_blank">玉珍齋</a>
+        <a href="心得.index.html" target="_blank">心得</a>
+    </div>
+
+    <!-- 標題 -->
+    <div class="title">伴手禮選購分析與心得</div>
+
+    <!-- 個人資料 -->
+    <div class="profile">
+        班級：進修四技企業管理系2A<br>
+        學號：91309117<br>
+        姓名：蕭仲翔
+    </div>
+</div>
+
+<!-- ===== 首頁大按鈕區（保留） ===== -->
+<div class="buttons">
+    <a class="btn" href="shin.index.html" target="_blank">
+        <img src="images/shin.png" alt="新東陽">
+        <span>新東陽</span>
+    </a>
+
+    <a class="btn" href="imei.index.html" target="_blank">
+        <img src="images/imei.png" alt="義美食品">
+        <span>義美食品</span>
+    </a>
+
+    <a class="btn" href="yu.index.html" target="_blank">
+        <img src="images/yu.jpg" alt="玉珍齋">
+        <span>玉珍齋</span>
+    </a>
+
+    <a class="btn" href="心得.index.html" target="_blank">
+        <img src="images/心得.jpg" alt="心得">
+        <span>心得</span>
+    </a>
+</div>
+
+</body>
+</html>
